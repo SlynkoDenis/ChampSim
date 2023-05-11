@@ -1,0 +1,22 @@
+,name,IPC,BP Accuracy,MPKI
+0,600.perlbench_s-1273B.champsimtrace.xz,2.64655,96.2844,5.02862
+1,602.gcc_s-1850B.champsimtrace.xz,0.674696,95.6758,11.0872
+2,603.bwaves_s-2931B.champsimtrace.xz,0.701757,96.742,0.27498
+3,605.mcf_s-1536B.champsimtrace.xz,0.341209,99.9739,0.0407
+4,607.cactuBSSN_s-2421B.champsimtrace.xz,1.99065,88.0286,0.98528
+5,619.lbm_s-2676B.champsimtrace.xz,0.244439,96.7064,0.52754
+6,620.omnetpp_s-141B.champsimtrace.xz,0.449,90.6161,19.7547
+7,621.wrf_s-575B.champsimtrace.xz,1.86759,93.6555,8.45498
+8,623.xalancbmk_s-165B.champsimtrace.xz,0.818692,92.2476,21.6195
+9,625.x264_s-12B.champsimtrace.xz,3.312,95.2596,2.03993
+10,627.cam4_s-490B.champsimtrace.xz,2.07447,94.5042,5.30788
+11,628.pop2_s-17B.champsimtrace.xz,2.20986,96.6576,3.82932
+12,631.deepsjeng_s-928B.champsimtrace.xz,1.24098,88.0955,17.6905
+13,638.imagick_s-10316B.champsimtrace.xz,3.8324,99.6972,0.31342
+14,641.leela_s-149B.champsimtrace.xz,1.21446,86.7381,22.4405
+15,644.nab_s-12459B.champsimtrace.xz,2.22053,94.3341,8.0992
+16,648.exchange2_s-387B.champsimtrace.xz,2.0549,93.6499,10.692
+17,649.fotonik3d_s-1176B.champsimtrace.xz,1.21043,99.9502,0.00876
+18,654.roms_s-293B.champsimtrace.xz,1.48622,99.7824,0.0282401
+19,657.xz_s-4994B.champsimtrace.xz,1.48964,81.6265,19.2594
+20,geomean,1.286047741919664,93.88495172450293,2.0884980484122853
