@@ -12,7 +12,6 @@ def get_download_url(benchmark_name: str) -> str:
     url_prefix: str = "https://dpc3.compas.cs.stonybrook.edu/champsim-traces/speccpu"
     return f"{url_prefix}/{benchmark_name}"
 
-
 def create_dir(dirname: str) -> pathlib.Path:
     path: pathlib.Path = pathlib.Path("./").joinpath(dirname)
     if path.exists() and not path.is_dir():
@@ -20,7 +19,6 @@ def create_dir(dirname: str) -> pathlib.Path:
 
     path.mkdir(exist_ok=True)
     return path
-
 
 def download_benchmarks(dirname: str, benchmarks: list[str]):
     dirpath = create_dir(dirname)
