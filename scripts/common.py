@@ -29,6 +29,7 @@ class GeomeanExtractor(Extractor):
     def geomean(self) -> float:
         if not self.values:
             return 0
+        self.values = [x if x != 0.0 else 1.0 for x in self.values]
         log_sum = sum(math.log(x) for x in self.values)
         return math.exp(log_sum / len(self.values))
 

@@ -39,7 +39,7 @@ def merge_frames(frames: dict[str, pd.DataFrame]) -> tuple[pd.DataFrame, list[st
     return df, columns
 
 
-def plot_gists(csv_paths: Collection[pathlib.Path], logy=True):
+def plot_gists(csv_paths: Collection[pathlib.Path], logy=False):
     frames = {p.stem: pd.read_csv(p) for p in csv_paths}
     names = list(frames.keys())
     df, columns = merge_frames(frames)

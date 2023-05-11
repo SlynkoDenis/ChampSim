@@ -32,7 +32,7 @@ _IPC_ and _MPKI_ were chosen as branch prediction quality metrics.
 
 ### IPC
 
-![ipc](images/IPC.png)
+![ipc](images/hw1/IPC.png)
 
 Bimodal BP showed lower Instructions Per Cycle (IPC) on most of benchmarks compared to GAg BP and equal or lower IPC when being compared with GAp BP. For geometric mean values the following holds true:
 
@@ -42,6 +42,6 @@ geomean(IPC(Bimodal)) < geomean(IPC(GAg)) < geomean(IPC(GAp))
 
 ### MPKI
 
-![mpki](images/MPKI.png)
+![mpki](images/hw1/MPKI.png)
 
 MPKI comparison mainly follows the same pattern (considering reversing `<`, as lower MPKI is better). It is worth mentioning that Bimodal's MPKI showed itself significantly worser on some of the used benchmarks (e.g. approx. 3 times bigger MPKI compared to corresponding of GAp on benchmark `602.gcc_s-1850B.champsimtrace.xz`)

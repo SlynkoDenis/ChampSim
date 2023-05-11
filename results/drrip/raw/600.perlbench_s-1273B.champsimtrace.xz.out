@@ -18,11 +18,11 @@ Warmup complete CPU 0 instructions: 10000001 cycles: 2500273 (Simulation time: 0
 Heartbeat CPU 0 instructions: 20000001 cycles: 5879386 heartbeat IPC: 2.95936 cumulative IPC: 2.95936 (Simulation time: 0 hr 0 min 38 sec) 
 Heartbeat CPU 0 instructions: 30000004 cycles: 9692154 heartbeat IPC: 2.62277 cumulative IPC: 2.78092 (Simulation time: 0 hr 1 min 0 sec) 
 Heartbeat CPU 0 instructions: 40000001 cycles: 13335745 heartbeat IPC: 2.74455 cumulative IPC: 2.76869 (Simulation time: 0 hr 1 min 22 sec) 
-Heartbeat CPU 0 instructions: 50000004 cycles: 17066179 heartbeat IPC: 2.68066 cumulative IPC: 2.74614 (Simulation time: 0 hr 1 min 44 sec) 
-Heartbeat CPU 0 instructions: 60000001 cycles: 20932431 heartbeat IPC: 2.58649 cumulative IPC: 2.71266 (Simulation time: 0 hr 2 min 6 sec) 
-Simulation finished CPU 0 instructions: 50000000 cycles: 18432159 cumulative IPC: 2.71266 (Simulation time: 0 hr 2 min 6 sec) 
+Heartbeat CPU 0 instructions: 50000004 cycles: 17066179 heartbeat IPC: 2.68066 cumulative IPC: 2.74614 (Simulation time: 0 hr 1 min 43 sec) 
+Heartbeat CPU 0 instructions: 60000001 cycles: 20932431 heartbeat IPC: 2.58649 cumulative IPC: 2.71266 (Simulation time: 0 hr 2 min 5 sec) 
+Simulation finished CPU 0 instructions: 50000000 cycles: 18432159 cumulative IPC: 2.71266 (Simulation time: 0 hr 2 min 5 sec) 
 
-Simulation complete CPU 0 instructions: 50000000 cycles: 18432159 (Simulation time: 0 hr 2 min 6 sec) 
+Simulation complete CPU 0 instructions: 50000000 cycles: 18432159 (Simulation time: 0 hr 2 min 5 sec) 
 
 
 ChampSim completed all CPUs
@@ -42,11 +42,11 @@ BRANCH_DIRECT_CALL: 0.00112001
 BRANCH_INDIRECT_CALL: 0.000220001
 BRANCH_RETURN: 0.00112001
 
-LLC TOTAL       ACCESS:       2654  HIT:          1  MISS:       2653
+LLC TOTAL       ACCESS:       2655  HIT:          2  MISS:       2653
 LLC LOAD         ACCESS:       2422  HIT:          0  MISS:       2422
 LLC RFO          ACCESS:         70  HIT:          0  MISS:         70
 LLC PREFETCH     ACCESS:          0  HIT:          0  MISS:          0
-LLC WRITE        ACCESS:          1  HIT:          1  MISS:          0
+LLC WRITE        ACCESS:          2  HIT:          2  MISS:          0
 LLC TRANSLATION  ACCESS:        161  HIT:          0  MISS:        161
 LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
 LLC AVERAGE MISS LATENCY: 157.455 cycles
